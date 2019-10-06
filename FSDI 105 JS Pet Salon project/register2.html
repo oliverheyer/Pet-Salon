@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style2.css">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+    <title>Paw Pet's Salon</title>
+</head>
+<body>
+    <div id="header">
+            <ul class="menu_ul">
+                   
+                    <li class="menu_li"><a href="#">About</a></li>
+                    <li class="menu_li"><a href="#">Register</a></li> 
+                    <li class="menu_li"><a href="index2.html">Home</a></li>
+                    <img class="logo" src="img/logo1.jpg">
+            <img class="image-center" src="img/pet3.jpg">
+            <p class="clear"></p>
+        
+        
+    </div>
+    <div id="">
+      
+    </div>
+    <div id="body">
+            <div class="info">
+                </div> 
+       
+
+        <main class="main-in">
+                <div class="img-section">
+                        
+                </div>
+                
+                
+            </main>
+            <main class="main-in">
+                    <div class="img-location">
+                        <img class="logo">
+            
+                    </div>
+                    <div class="register-form">
+                        <form action="#">
+
+                           <p> Name: <input type="text" id="name" placeholder="Pet's Name"> </p>
+
+                           <p> Age: <input type="text" id="age" placeholder="Pet's Age"> </p>
+                           <p> Type: <select type="text" id="type"> 
+                               <option value="" disabled selected>--- Select Pet Type ---</option>
+                               <option value="Dog">Dog</option>
+                               <option value="Cat">Cat</option>
+                               <option value="Bird">Bird</option>
+                               <option value="Mouse">Mouse</option>
+                               <option value="Repile">Repile</option>
+                               <option value="Rabbit">Rabbit</option>
+                               
+                               
+                           </select></p>
+
+                           <p> Gender: <select type="text" id="gender"> 
+                                <option value="" disabled selected>--- Gender ---</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+
+
+
+                           </select> </p>
+                           <p> Service: <select name="service" id="service">
+                            <option value="" disabled selected>--- Select a Service ---</option>
+                            <option value="HairCut">HairCut</option>
+                            <option value="Nail Trim">Nail trim</option>
+                            <option value="General Wash">General Wash</option>
+                            <option value="Mouthwash">Mouthwash</option>
+                           
+                        </select> </p>
+
+                           <p> Breed: <input type="text" id="breed">  </p>
+                                
+                       
+
+                           
+                           <p> Owner's name: <input type="text" id="ownerName"> </p>
+
+                           <p> Contact Phone: <input type="text" id="contactPhone"> </p>
+                            
+                           
+                       
+                            </form>
+                         <div>
+                            <input class="btn" type="submit" value="Register" onclick="register();">
+                            <hr>
+                        </div>
+
+                        <!-- <div>
+                            <input type="type" id="inputSearch">
+                            <button class="btn" onclick="search();"> Search </button>
+                        </div> -->
+                            <center><h2>Registered Pets:</h2></center>
+                            
+                            <div>
+                              
+                                <input class ="btn1" type="text" id="inputSearch"       
+
+                                placeholder="          --- search option --- " >
+                                
+                                <button class="btn1" onclick="search();">&#128021</button>
+                                
+                            </div>
+                            <div>
+                                    <table class="table" id="petTable">
+                                        <thead>
+                                            <th>Name</th>
+                                            <th>Age</th>
+                                            <th>Type</th>
+                                            <th>Gender</th>
+                                            <th>Breed</th>
+                                            <th>Service</th>
+                                            <th>Name of Owner</th>
+                                            <th>Contact details</th>
+                                            <th>Options</th>
+
+                                        </thead>
+                                        <tbody id="listBody">
+
+                                            
+                                        </tbody>
+                                    </table>
+
+                                </div>
+
+
+                    </div>
+                </main>
+    </div>
+    <div id="footer">
+            <footer class="footer-in">
+                
+                    <section class="list-pets">
+
+
+                            <div class="info">
+                                </div> 
+                                
+                                
+                           
+                        </section>
+                    
+                </footer>
+        
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html>
